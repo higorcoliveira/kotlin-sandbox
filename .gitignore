@@ -1,3 +1,4 @@
 .idea
 out
 kotlin-sandbox.iml
+/lib/*
