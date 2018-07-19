@@ -1,7 +1,5 @@
 package minefield.model
 
-import function.min
-
 // comportamentos do campo
 enum class FieldEvent{ OPENING, MARKED, MARKOFF, EXPLOSION, RESET }
 

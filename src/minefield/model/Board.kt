@@ -2,6 +2,7 @@ package minefield.model
 
 import java.util.*
 
+// resultados do jogo
 enum class BoardEvent { VICTORY, LOSE }
 
 class Board(val qtRows: Int, val qtColumns: Int, private val qtMines: Int) {

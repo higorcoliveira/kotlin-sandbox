@@ -4,9 +4,11 @@ import minefield.model.Field
 import java.awt.event.MouseEvent
 import java.awt.event.MouseListener
 
-class MouseClickListener(private val field: Field,
+class MouseClickListener(
+    private val field: Field,
     private val onLeftButton: (Field) -> Unit,
-    private val onRightButton: (Field) -> Unit): MouseListener {
+    private val onRightButton: (Field) -> Unit
+): MouseListener {
 
     override fun mouseReleased(e: MouseEvent?) { }
 
