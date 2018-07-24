@@ -80,7 +80,7 @@ class Board(val qtRows: Int, val qtColumns: Int, private val qtMines: Int) {
     }
 
     fun forEachField(callback: (Field) -> Unit) {
-        fields.forEach { row -> row.forEach { callback } }
+        fields.forEach { row -> row.forEach(callback) }
     }
 
     fun onEvent(callback: (BoardEvent) -> Unit) {
